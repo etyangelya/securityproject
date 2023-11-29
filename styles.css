@@ -1,0 +1,115 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url('secure.jpg'); /* Add the background image property */
+    background-size: cover; /* Adjust this property to control the image size */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Keep the image fixed while scrolling */
+}
+
+header {
+
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    margin-left: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style links inside available courses */
+ul li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+.main_img{
+    width: 100%;
+    height: 300px;
+}
+.img_text{
+    color: black;
+}
+.section1 {
+    position: relative;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    position: right;
+    z-index: 1; /* Ensure the list is above the background image */
+}
+
+li {
+    display: block;
+    padding: 10px;
+    
+}
+
+.main_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 0; /* Ensure the image is below the list and other content */
+}
+
+.codes{
+    width: 10px;
+    height: 250px;
+}
+.container{
+    padding: 20px;
+
+}
